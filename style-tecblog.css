@@ -1,0 +1,113 @@
+#cabecalho {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu,
+#logo {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #ffa500;
+}
+
+#cabecalho a:link,
+#cabecalho a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover {
+    background-color: #ffa500;
+}
+
+a:active {
+    color: #000;
+}
+
+.branco {
+    color: white;
+}
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #ffa500;
+
+}
+
+.noticia-lateral h2 {
+    color: #000;
+    background: #ccc;
+    padding: 5px;
+}
+
+#area-principal {
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+#postagem-principal {
+    width: 660px;
+    float: left;
+}
+
+.noticia-lateral {
+    background: #fff;
+    width: 240px;
+    float: right;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#rodape {
+    clear: both;
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+    display: block;
+
+}
+
+.postagens p{
+    margin: 1px;
+}
+
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    margin: 15px;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.postagens img{
+    width: 600px;
+}
+
+.postagens p{ 
+    margin-top: 10px;
+}
